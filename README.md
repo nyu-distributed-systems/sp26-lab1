@@ -625,7 +625,7 @@ To handin this assignment:
   agreeing to the course collaboration policy, and citing your sources.
 * Commit and push all your changes.
 * Use `git rev-parse --short HEAD` to get a commit hash for your changes.
-* Fill out the [submission form](https://forms.gle/XE7b6v8SHv6iG1CJ6).
+* Fill out the [submission form](https://forms.gle/XBFrDzAL5MCZLHrC9).
 
 We will be using information in the submission form to grade your lab, determine
 late days, etc. It is therefore crucial that you fill this out correctly.

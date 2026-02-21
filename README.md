@@ -453,7 +453,7 @@ defp timer_test do
        IO.puts("Timer went off")
     {sender, m} ->
        IO.puts("Sender #{inspect(sender)} sent message #{inspect(m)} before timer")
-       case cancel(t) do
+       case Emulation.cancel_timer(t) do
          false -> IO.puts("Timer has already gone off, and there is a :timer msg waiting")
          n -> IO.puts("#{n} ms remains on the timer")
        end
